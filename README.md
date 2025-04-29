@@ -1,13 +1,8 @@
-Alavetelitheme
-==============
+# Ask MI Gov Alaveteli Theme
 
-This is a "hello world" type theme package for Alaveteli.
-
-The intention is to support simple overlaying of templates and
-resources without the need to touch the core Alaveteli software.
+This is an Alaveteli theme adapted for Michigan.
 
 Typical usage should be limited to that described in the [documentation](http://alaveteli.org/docs/customising/themes/):
-
 
 ## To install:
 
@@ -25,6 +20,5 @@ You can then switch the theme the application is using:
 To run tests, in the Alaveteli Rails.root (with this theme installed):
 
         bundle exec rspec lib/themes/alavetelitheme/spec
-
 
 Copyright (c) 2011 mySociety, released under the MIT license

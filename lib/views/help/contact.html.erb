@@ -34,7 +34,7 @@
                             href="mailto:<%=@contact_email%>"><%=@contact_email%></a>
       </li>
 
-      <li>We are a <strong>charity</strong> and not part of the
+      <li>We are <strong>volunteers</strong> and not part of the
         Government.</li>
     </ul>
   <% end %>
@@ -93,7 +93,7 @@
 
   <div class="form_button">
     <%= hidden_field_tag(:submitted_contact_form, 1) %>
-    <%= submit_tag "Send message to the charity", :data => { :disable_with => "Sending..." } %>
+    <%= submit_tag "Send message to the maintainers", :data => { :disable_with => "Sending..." } %>
     &lt;-- we run this site, not the Government!
   </div>
 

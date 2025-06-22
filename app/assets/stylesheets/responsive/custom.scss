@@ -1,6 +1,20 @@
 
 /* Mixin styles */
 
+.banner_site-title {
+  a {
+    color: $color_white;
+  
+    &:visited {
+      color: $color_white;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+}
+
 /* Hide text when it's replaced by an image */
 .image-replacement {
   overflow: hidden;
@@ -888,28 +902,24 @@ dt {
   @include button-secondary();
 }
 
+// TODO: Figure out text color
 .homepage-hero {
   background-color: $color_neutral_dark;
-  background-image: image-url('homepage-background-small.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
   color: $color_white;
   padding: 2em 0 5em;
   position: relative;
-  @include respond-min($main_menu-mobile_menu_cutoff) {
-    padding: 5em 0 8em;
-    background-image: image-url('homepage-background.jpg');
-  }
 
-  a {
-    color: $color_secondary;
-    &:hover,
-    &:active,
-    &:focus {
-      color: $color_white;
-    }
-  }
+  // a {
+  //   color: $color_secondary;
+  //   &:hover,
+  //   &:active,
+  //   &:focus {
+  //     color: $color_white;
+  //   }
+  // }
 
   .intro__title {
     color: $color_white;
